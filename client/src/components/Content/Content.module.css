@@ -1,0 +1,30 @@
+.Content {
+  flex-grow: 1;
+  box-sizing: border-box;
+  overflow: scroll;
+  position: relative;
+}
+
+.Container {
+  padding: 2vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  gap: 3vw;
+}
+@media screen and (min-width: 1400px) {
+  .Container {
+    grid-template-columns: repeat(5, 200px);
+    justify-content: center;
+  }
+}
+
+.Info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=Content.module.css.map */

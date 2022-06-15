@@ -1,0 +1,27 @@
+.MainPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 100vh;
+}
+
+//.A {
+//  flex: 0 0 auto;
+//  background-color: red;
+//}
+//.B {
+//  //flex-grow: 1;
+//  flex: 1 0 auto;
+//  background-color: gray;
+//}
+//.C {
+//  flex: 0 0 auto;
+//  background-color: aqua;
+//}
+
+//em - значение относительно текущего шрифта
+//% - процент от родителя
+//rem - размер относительно html
+//vw - процент ширины экрана
+//vh - процент высоты экрана
+//vmin - наименьшее из vw и vh

@@ -1,0 +1,14 @@
+.Header{
+  //flex: 0 0 auto;
+  flex-grow: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 4vw;
+  border-bottom: solid black;
+
+  &__title {
+    font-size: 30px;
+  }
+}

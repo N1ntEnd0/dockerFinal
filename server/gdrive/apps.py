@@ -1,0 +1,11 @@
+from django.apps import AppConfig
+
+
+class GdriveConfig(AppConfig):
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'gdrive'
+
+    def ready(self):
+        from .tasks import start
+
+        start()

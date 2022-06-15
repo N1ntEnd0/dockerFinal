@@ -1,0 +1,50 @@
+.File {
+  width: 115px;
+  height: 140px;
+  transition: box-shadow 0.3s;
+  box-shadow: 0 0 0 0 rgba(255,255,255, 0), 0 0 0 0 rgba(255,255,255, 0);
+  border-radius: 5px;
+  padding: 8px;
+  position: relative;
+
+  &__icon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -10px;
+    right: -10px;
+    background: var(--color-control-bg-primary);
+    color: #FFFFFF;
+  }
+
+  &__name {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100px;
+    height: 20px;
+    text-overflow: ellipsis;
+    text-align: center;
+  }
+
+  &__tip {
+    word-wrap: break-word;
+    //display: inline-block;
+  }
+  &_selected {
+    box-shadow: 0 0 0 3px var(--color-control-bg-focus), 0 0 0 6px transparent;
+
+  }
+
+
+
+  //&__name:hover {
+  //  position: relative;
+  //  white-space: normal;
+  //  overflow: visible;
+  //  z-index: 1;
+  //}
+}
